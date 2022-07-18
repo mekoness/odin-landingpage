@@ -26,23 +26,14 @@ header > * {
   display: flex;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
-}
-
-.topsubtext {
-  color: #E5E7EB;
-}
-
 .headercontainer {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
-.headerlinks {
-  font-size: 18px;
+.headerlogo {
+  display: inline-block;
 }
 
 ul {
@@ -51,16 +42,29 @@ ul {
 	padding: 0;
   display: flex;
   gap: 16px;
+  text-align: right;
+  font-size: 18px;
 }
 
 .topcontainer {
   background-color: #1F2937;
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.topsubtext {
+  color: #E5E7EB;
 }
 
 .cardscontainer {
-  width: 60%;
+  width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -75,6 +79,7 @@ h2 {
   display: flex;
   flex-wrap: column wrap;
   gap: 20px;
+
 }
 
 .cardimg {
@@ -115,7 +120,7 @@ h2 {
 }
 
 .coacontainer {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   margin-bottom: 100px;
   background-color: #3882F6;
@@ -126,6 +131,7 @@ h2 {
 
 .coacontainer > * {
   display: flex;
+  justify-content: space-around;
 }
 
 .topbutton,
