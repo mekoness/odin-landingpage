@@ -4,36 +4,17 @@ html {
 
 *, *::before, *::after {
 	box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
   font-family: sans-serif;
 }
 
 a {
 	text-decoration: none;
-  color: #E5E7EB;
-}
-
-header {
-  background-color: #1F2937;
-}
-
-header > * {
-  display: flex;
-}
-
-.headercontainer {
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-.headerlogo {
-  display: inline-block;
+  color: #e5e7eb;
 }
 
 ul {
@@ -42,105 +23,95 @@ ul {
 	padding: 0;
   display: flex;
   gap: 16px;
-  text-align: right;
-  font-size: 18px;
 }
 
-.topcontainer {
+header {
   background-color: #1F2937;
-  margin: 0 auto;
+}
+
+.container {
   width: 50%;
+  margin: 0 auto;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
-  margin: 0;
+.topnavbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
-.topsubtext {
-  color: #E5E7EB;
+.topcontent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.topimage {
+  margin-left: 20px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f4faf8;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 0;
 }
 
 .cardscontainer {
-  width: 1000px;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 20px;
 }
 
-h2 {
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: bolder;
-}
-
-.cardsrow {
+.cardsblock {
+  margin-top: 20px;
   display: flex;
-  flex-wrap: column wrap;
-  gap: 20px;
-
-}
-
-.cardimg {
-  border: 3px solid #3882F6;
-  border-radius: 10px;
-  margin: 0;
-  padding: 10px;
-}
-
-.cardtext {
-  width: 200px;
+  gap: 16px;
 }
 
 .quotecontainer {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
+  margin-top: 50px;
+}
+
+.quote {
+  width: 50%;
+  margin: 0 auto;
   padding: 50px 0;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .quotetext,
 .quotename {
-  width: 50%;
-  margin: 0 auto;
+  color: #1F2937;
 }
 
 .quotetext {
-  color: #1F2937;
   font-size: 36px;
   font-style: italic;
 }
 
 .quotename {
   font-size: 30px;
-  color: black;
-  font-weight: bold;
   text-align: right;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-.coacontainer {
+.ctacontainer {
   width: 50%;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  background-color: #3882F6;
+  margin: 20px auto;
+  background-color: #3882f6;
+  color: #e5e7eb;
   border-radius: 10px;
-  color: white;
-  padding: 20px 80px;
+  padding: 50px 100px;
 }
 
-.coacontainer > * {
+.ctablock {
   display: flex;
-  justify-content: space-around;
-}
-
-.topbutton,
-.coabutton {
-  background-color: #3882F6;
-  border-radius: 5px;
-  padding: 5px 20px;
-  font-size: 18px;
-  color: white;
+  justify-content: space-between;
 }
 
 .coabutton {
@@ -149,11 +120,7 @@ h2 {
 
 footer {
   background-color: #1F2937;
+  color: #f4faf8;
   text-align: center;
   padding: 10px;
-}
-
-.footertext {
-  font-size: 14px;
-  color: #E5E7EB;
 }
