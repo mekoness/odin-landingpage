@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: sans-serif;
+  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -48,6 +49,12 @@ header {
   align-items: center;
 }
 
+h1 {
+  color: #f4faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
 .topimage {
   margin-left: 20px;
 }
@@ -61,10 +68,16 @@ button {
 }
 
 .cardscontainer {
+  color: #1F2937;
   width: 50%;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .cardsblock {
