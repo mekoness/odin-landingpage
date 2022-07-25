@@ -59,6 +59,10 @@ h1 {
   font-weight: bold;
 }
 
+.topsubtext {
+  margin-bottom: 10px;
+}
+
 .topimage {
   margin-left: 20px;
 }
@@ -86,10 +90,15 @@ h2 {
 }
 
 .cardsblock {
-  margin-top: 20px;
+  margin: 20px;
   display: flex;
-  flex: 1;
   gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
 }
 
 .quotecontainer {
